@@ -7,6 +7,8 @@ gli output di scenario vanno in cartelle gitignored del clone e NON sono in ques
 
 ## Contenuto
 - `RISCONTRO_ciclo_unico_2026-07-17.md` — report completo (verifica, bug, sensibilità, dati).
+- `analisi_tecnica_duplicazione_posas_x4.md` — analisi tecnica standalone del bug POSAS ×4:
+  causa nel codice (file/riga), evidenza, propagazione, impatto e fix proposto (linkabile).
 - `run_scenario.py` — driver esterno per i rerun corretti (dedup POSAS + override parametri).
 - `risultati_sensibilita_corretta/` — nostri risultati calcolati (4 scenari × 2 file):
   `spesa_riepilogo_realistico__*` e `spesa_confronto_orizzonti_realistico__*`.
