@@ -123,9 +123,23 @@ Metodo: rerun via driver esterno che **importa** `analizza_scenario` + `crea_out
 
 ---
 
-## 6. Correzione proposta
+## 6. Verifiche indipendenti di plausibilità
 
-### 6.1 Fix primario — selezionare una sola sorgente (`trova_link_zip_posas`)
+Oltre al meccanismo nel codice (§3) e al controllo di fedeltà (§5), il valore corretto (÷4) è confermato da quattro riscontri **indipendenti tra loro e da fonti diverse**.
+
+**(a) Impossibilità fisica del dato buggato.** I 17,87 M di 11–18enni del dato duplicato sono **1,83× l'intera popolazione italiana 0–19** (9,78 M, POSAS corretto). Una fascia di 8 leve non può superare 20 leve: il dato è impossibile a prescindere dal modello.
+
+**(b) Coerenza con i nati vivi + saldo migratorio.** Incrociando ogni coorte corretta con la serie storica ISTAT dei nati vivi, i residenti a ciascuna età superano i nati del rispettivo anno dell'**1,5–6,6%**, in modo crescente con l'età: è il saldo migratorio atteso (le coorti più vecchie hanno accumulato più anni di immigrazione). Il pattern è liscio e monotòno su tutte le età — una correzione ÷4 anche solo parzialmente errata romperebbe questa regolarità.
+
+**(c) Chiusura del cerchio dal sistema scolastico (fonte MIM, indipendente da ISTAT).** Gli alunni **statali** in età 11–18 (MIM `ALUCORSOETA` 2024/25) sono **3,74 M = 83,6%** della popolazione corretta (4,47 M) — coerente con la quota in paritarie/IeFP o fuori dal sistema; includendo le paritarie la copertura supera il 90%. Contro il dato buggato, gli stessi alunni sarebbero il **20,9%**: implicherebbe che ~80% dei ragazzi italiani non risulta a scuola. Assurdo. (La famiglia dati MIM è del tutto separata da ISTAT: è una conferma incrociata, non circolare.)
+
+**(d) Controllo locale — Roma.** Roma corretta: **208.506** ragazzi 11–18 su ~2,75 M di residenti = **7,6%**, in linea con la struttura per età. Il dato buggato darebbe **834.024** = **30%** della popolazione romana.
+
+---
+
+## 7. Correzione proposta
+
+### 7.1 Fix primario — selezionare una sola sorgente (`trova_link_zip_posas`)
 
 Tenere unicamente l'aggregato nazionale dei comuni ed evitare province + bundle. Corregge la causa **e** elimina il download ridondante di 100+ MB di zip provinciali:
 
@@ -147,9 +161,9 @@ def trova_link_zip_posas(html_pagina: str, anno: int) -> list[str]:
     return solo_comuni[:1] if solo_comuni else link_puliti
 ```
 
-### 6.2 Difesa in profondità — deduplica in estrazione
+### 7.2 Difesa in profondità — deduplica in estrazione
 
-Anche mantenendo il fix 6.1, conviene rendere idempotente l'estrazione (protegge da bundle o file ridondanti dentro un singolo zip):
+Anche mantenendo il fix 7.1, conviene rendere idempotente l'estrazione (protegge da bundle o file ridondanti dentro un singolo zip):
 
 ```python
 # in estrai_popolazione_posas_zip, prima di append:
@@ -163,13 +177,13 @@ viste.add(chiave)
 
 ---
 
-## 7. Raccomandazione aggiuntiva — ricalibrare le soglie
+## 8. Raccomandazione aggiuntiva — ricalibrare le soglie
 
 Con il dato corretto le chiusure salgono a **8.367 (>50% delle sedi medie-superiori)**. Le soglie (`soglia_domanda_minima_chiusura`=120, `soglia_presidio_alunni`=120, `studenti_minimi_sede_riferimento_superiori`=250 e il vincolo di concentrazione) erano di fatto tarate contro un bacino gonfiato ×4: vanno **riviste** ora che la domanda è ~4× più piccola. È una scelta di scenario, non un difetto del dato, ma senza ricalibrazione il modello potrebbe chiudere troppo.
 
 ---
 
-## 8. Come riprodurre
+## 9. Come riprodurre
 
 1. Eseguire il solo download POSAS (`scarica_dati_istat_posas`, età 11–18).
 2. `wc -l output/dati_ufficiali/istat/posas/popolazione_eta_comune_2026.csv` → 252.673 (header incluso).
