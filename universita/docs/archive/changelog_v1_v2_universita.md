@@ -30,11 +30,5 @@ Rimosse le frasi autoreferenziali/autocelebrative: "Non critichiamo un mondo che
 - Arbitraggi A1–A8 della riconciliazione v1: invariati.
 - Coperture: assenti per decisione R-Z1 (→ fiscal framework).
 
----
-
-# Addendum — v2 → v2.1 (18/07/2026, stesso giorno)
-
-**§2.1 — Simulazione premiale al 50%: claim falsificato e riformulato.** La simulazione di brother sui dati DM 595/2025 (statica, criteri invariati, 3 stress test: premiale 40%, esclusione scuole speciali, conteggio vincitori) smentisce il claim ereditato dal PP Finanziamento ("Sud beneficiario netto, smonta la narrativa anti-Sud", basato su dati 2022): sul 2025 la redistribuzione è moderatamente favorevole al Nord (+0,42% / Sud −0,74% dell'FFO di macro-area), con 2 vincitori su 7 tra i grandi atenei Sud/isole (Federico II +8M, Messina). Riformulazione applicata: (a) dati della simulazione dichiarati apertamente, con entità (sotto l'1% dell'FFO di macro-area) e robustezza; (b) il fatto verificato favorevole — i migliori atenei di ricerca del Sud vincono — mantenuto; (c) l'anti-divergenza ancorata al *disegno* (criteri di traiettoria, regole ex ante, didattica/esiti, perequativo, transizione, campioni per macroregione), non più alla simulazione grezza; (d) esplicitato che la proposta non è "più premiale a criteri invariati". Il flag [C] della v2 si chiude [V] con segno opposto all'atteso — secondo caso del workstream dopo il Gini (B5), entrambi intercettati dal protocollo di quarantena prima della circolazione.
-
-## E. [C] residui dopo la v2.1
-Estremi GU legge Bernini (numero, data, entrata in vigore → aggiornare §1.3, §4.1, §9) · esiti FIS3 per macrosettore + revoche 2026 (completa F5) · rassegna peer-reviewed ritorni sociali R&S (§3.4, in carico a Claude-chat) · gettito contribuzione statali all'euro e split in-corso statali (§8, precisione) · composizione riga convergenza §8.
+## E. [C] residui dopo la v2
+Estremi GU legge Bernini (numero, data, entrata in vigore → aggiornare §1.3, §4.1, §9) · esiti FIS3 per macrosettore + revoche 2026 (completa F5) · simulazione premiale 50% su tabelle DM 595/2025 (§2.1) · rassegna peer-reviewed ritorni sociali R&S (§3.4) · gettito contribuzione statali all'euro e split in-corso statali (§8, precisione) · composizione riga convergenza §8.
