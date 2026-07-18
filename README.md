@@ -13,7 +13,7 @@ Il nostro lavoro è organizzato per filone tematico:
 ```
 DD_scuola/
   ciclo_unico/               <- il NOSTRO lavoro sul ciclo unico (analisi, docs, note)
-  universita/                <- (in arrivo) filone università / ricerca
+  universita/                <- filone università / ricerca (position paper)
   Ciclo_unico_scolastico/    <- clone locale del repo di Nazareno Lecis
                                 (GITIGNORATO: non ridistribuito qui, vedi sotto)
 ```

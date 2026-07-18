@@ -9,4 +9,6 @@ il codice di Nazareno Lecis resta nel clone nidificato `../Ciclo_unico_scolastic
 - `analisi/` — nostre analisi, driver e risultati datati:
   - `2026-07-17_verifica_scenario/` — correzione del bug POSAS ×4, verifica scenario base, estrazioni ISTAT/MIM.
   - `2026-07-17_fase3_calibrazione_modello/` — calibrazione rete + concentrazione graduale τ, modello costo docente.
-- `docs/` — documenti finiti: `Documento_Ciclo_Unico_v1.md` (proposta), `Nota_riconciliazione_PP_ciclo_unico.md`, e `tesi/` (materiale sul filone università, temporaneamente qui, in ripresa più avanti).
+- `docs/` — documenti finiti: `Documento_Ciclo_Unico_v1.md` (proposta) e `Nota_riconciliazione_PP_ciclo_unico.md`.
+
+(Il materiale sul filone università è stato spostato nella cartella tematica `../universita/`.)
