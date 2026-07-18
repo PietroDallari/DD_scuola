@@ -21,7 +21,7 @@ Lo **Starting Grant** (ricercatori emergenti) è **la quota maggiore** del ripar
 
 Trend crescente col budget: **2,46% → 4,63% → 6,52%**, ma ancora **ben sotto l'ERC (14,2%)**: coerente col claim "lotterie a fronte di scala insufficiente". FIS3: 326 progetti su oltre 5.000 candidature, >432M (graduatorie nov.2025 DD 18008/18010/18169; scorrimenti successivi; **revoche 2026 a parte, non nette** nel tasso).
 
-**Revoche 2026:** come da istruzione, i "finanziati" sono quelli di **graduatoria originale**; le revoche 2026 (presenti per FIS3) vanno contate **a parte**, non nette — così il tasso di successo resta quello del bando. Conteggio revoche: **pendente** (richiede i decreti di revoca).
+**Revoche 2026:** come da istruzione, i "finanziati" sono quelli di **graduatoria originale**; le revoche 2026 (presenti per FIS3) vanno contate **a parte**, non nette — così il tasso di successo resta quello del bando. Conteggio revoche: nella lista principale FIS3 (fis-submission.mur.gov.it) compaiono **scorrimenti** (dic.2025, apr.2026 — che *aggiungono* vincitori), **non decreti di revoca**; il tasso 6,52% resta quello della graduatoria originale (326/>5.000), come richiesto. Nessuna revoca material da sottrarre individuata.
 
 ## F5 completata
 `figures/f5_successo_fis_erc.png` con la terza barra FIS3 (6,52%). Restano fuori (minori): breakdown domande/finanziati **per schema** dentro ciascuna edizione e conteggio esatto delle **revoche 2026** (i decreti di graduatoria sono testo, la lista progetti è in allegati separati non pubblicati come PDF-tabella).
