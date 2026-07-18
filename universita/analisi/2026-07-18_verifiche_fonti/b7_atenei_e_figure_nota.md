@@ -1,0 +1,15 @@
+# B7 (numero atenei) + note figure F3/F5/F6 + chiusura 3043/2016
+
+## B7 — Numero atenei statali (§2.2, §9)
+- **Coerenza interna:** la TABELLA 1 del DM 595/2025 (riparto FFO) ha **68 righe** = destinatari FFO "Università Statali e Consorzi interuniversitari".
+- **Anagrafe USTAT:** le **università statali** propriamente dette sono **~67**, di cui alcune **Scuole Superiori a ordinamento speciale** (Normale e Sant'Anna di Pisa, IUSS Pavia, SISSA Trieste, GSSI L'Aquila, IMT Lucca). Le 68 righe FFO ≈ 67 atenei + differenze di perimetro (scuole/consorzi).
+- **Esito:** il "**~67 istituzioni statali**" del report (§2.2) è **corretto [V]**; i valori 57/66 dei vecchi PP erano perimetri diversi/datati. Il conteggio esatto per perimetro dichiarato (con/senza scuole speciali) è una minuzia — in v2 usare "**circa 67 università statali**" con nota "di cui alcune scuole a ordinamento speciale". Split puntuale [C] minore.
+
+## Chiusura B8 — Cons. Stato Sez. VI n. 3043/2016 [V]
+Verificata: **Cons. Stato, Sez. VI, 11/07/2016, n. 3043** (appello ANAC su università non statali e obblighi di trasparenza D.Lgs. 33/2013). Principio: **nozione "funzionale/cangiante" di ente pubblico** — la qualificazione pubblicistica segue criteri *dinamici e funzionali*, non la veste formale; uno stesso soggetto è "ente pubblico" a certi fini (es. **concorsi e reclutamento** dove c'è fondamento normativo) e non ad altri. Conferma esattamente l'uso nel report (§2.3, §9): *"la natura pubblica delle funzioni universitarie segue criteri funzionali e non la veste dell'ente"*. → **B8 completo [V]** (8516/2024 + 3043/2016; nota: alcune fonti secondarie citano erroneamente "Sez. V", ma è **Sez. VI**).
+
+## Figure (T10) — fonti e perimetri dichiarati
+- **F2** `f2_ffo_reale.png` — FFO nominale vs reale 2019-25 (deflatore PIL + HICP). Ritocchi applicati: banda "livello reale 2021-23" etichettata; freccia "taglio nominale 2024 (9,21→9,03)"; legenda HICP = "deflatore alternativo".
+- **F3** `f3_premiale_ffo.png` — scatter quota premiale/FFO per ateneo (banda 19-34%, annotazione corr(premiale,base)=0,99). Fonte: DM 595/2025 TAB1, nostra elaborazione. Sostituisce la vecchia figura-Gini.
+- **F5** `f5_successo_fis_erc.png` — tassi di successo FIS1 2,46% / FIS2 4,63% vs **ERC Consolidator 2024 = 14,2%** (328/2.313; fonte ancorata: *ERC 2024 CoG Statistics*; CoG 2023 = 14,5%). FIS3 in corso.
+- **F6** `f6_precariato.png` — quota RTD-a sul personale di ruolo: **4,1% (2012) → 11,2% (2022)** (ANVUR). Perimetro dichiarato: personale docente **di ruolo** (il PP Reclutamento mischiava docente/non docente). Supporta il "quasi triplicata" del §1.3 (base 2012; il "dal 2008" del report va ancorato al 2012 o dichiarato come ordine di grandezza).

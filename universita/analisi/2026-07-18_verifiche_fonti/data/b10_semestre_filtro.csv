@@ -1,0 +1,8 @@
+GRANDEZZA,VALORE,PERIMETRO,FONTE
+iscritti_semestre_filtro_medicina,~54.300,Medicina,"MUR/media, esiti dic.2025"
+superano_tutti_3_esami_medicina,~22.700,Medicina,MUR
+idonei_almeno_1_esame_medicina,22.427-22.500,Medicina,MUR (perimetro diverso)
+idonei_almeno_1_esame_MOV,25.450,Med+Odont+Vet,MUR
+posti_medicina,17.278,Medicina,DM; report
+posti_MOV,24.026,Med+Vet+Odont,MUR
+decreto_graduatoria,DM 1115 del 22/12/2025,1° ciclo 2025/26,MUR

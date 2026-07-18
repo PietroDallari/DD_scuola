@@ -21,11 +21,18 @@ with open(DATA, encoding="utf-8") as f:
 fig, ax = plt.subplots(figsize=(8, 5))
 ax.plot(anni, nom, "-o", color="#1f77b4", label="FFO nominale")
 ax.plot(anni, real_pil, "-o", color="#d62728", label="FFO reale (deflatore PIL, base 2019)")
-ax.plot(anni, real_hicp, "--o", color="#ff7f0e", label="FFO reale (HICP, base 2019) — check", alpha=0.8)
-ax.axhspan(min(real_pil), real_pil[2], color="#d62728", alpha=0.05)
-ax.annotate("massimo nominale 2025 (9,37 mld)\nma reale sotto il picco 2021-23",
-            xy=(2025, nom[-1]), xytext=(2021.2, 9.5), fontsize=8,
+ax.plot(anni, real_hicp, "--o", color="#ff7f0e", label="FFO reale (deflatore alternativo HICP, base 2019)", alpha=0.8)
+# livello reale medio 2021-2023 (plateau), etichettato
+liv = sum(real_pil[2:5]) / 3
+ax.axhline(liv, color="#d62728", ls=":", lw=1, alpha=0.6)
+ax.text(2019.05, liv + 0.03, "livello reale 2021-23", color="#d62728", fontsize=7.5, va="bottom")
+ax.annotate("massimo nominale 2025 (9,37 mld)\nma reale sotto il livello 2021-23",
+            xy=(2025, nom[-1]), xytext=(2021.0, 9.55), fontsize=8,
             arrowprops=dict(arrowstyle="->", color="gray"))
+# punto forte: taglio anche nominale nel 2024 (9,21 -> 9,03)
+ax.annotate("taglio nominale 2024\n(9,21 → 9,03)", xy=(2024, nom[5]), xytext=(2024.05, 8.35),
+            fontsize=8, color="#1f77b4",
+            arrowprops=dict(arrowstyle="->", color="#1f77b4"))
 ax.set_xlabel("Anno"); ax.set_ylabel("FFO (miliardi €)")
 ax.set_title("FFO università statali 2019-2025: nominale vs reale (base 2019)")
 ax.legend(fontsize=8, loc="lower right"); ax.grid(alpha=0.25)
