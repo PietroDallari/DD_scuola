@@ -21,7 +21,8 @@ Convenzione file: dati verificati in `analisi/<data>_.../data/*.csv` con fonte/a
 | B10 | Semestre filtro medicina (numeri 1° ciclo) | [C] | ~54.300 / 22.700 / 17.278 posti da fonte MUR | L.26/2025, D.Lgs.71/2025, DM 941/2026, Universitaly |
 | B11 | Contribuzione (gettito 1,5 mld; esonerati 37,8%) | [C] | + tetto 20% FFO (DPR 306/97) e no tax area | USTAT focus contribuzione |
 | B12 | RTT anticipo passaggio PA (3° o 4° anno) | [C] | testo vigente art.24 L.240/2010 + modifica Bernini | Normattiva |
-| F2-F6 | Figure (FFO reale, Gini, bandi/PIL, successo FIS, precariato) | [C] | script versionati, dipendono da B3/B4/B5 + report agenzie | — |
+| F4 | Bandi competitivi IT vs DFG/ANR/SNSF/NWO/UKRI | **[V]** | budget agenzie verificati; gap "4-6x" difendibile ma conservativo (a regime, per ab., vs DE); fino a ~10x vs CH/NL | report agenzie (DFG/ANR/SNSF/NWO/UKRI) → `analisi/2026-07-18_verifiche_fonti/data/f4_bandi_competitivi_confronto.csv` + `f4_..._nota.md` |
+| F2,F3,F5,F6 | Figure (FFO reale, Gini, successo FIS, precariato) | [C] | dipendono da B3/B4/B5 + ANVUR/USTAT | — |
 | D | Tabella costi §8 | [C] | dopo B4/B6/B11; NO coperture (→ fiscal framework) | — |
 
 ## Prossimi passi (ordine E delle istruzioni)
