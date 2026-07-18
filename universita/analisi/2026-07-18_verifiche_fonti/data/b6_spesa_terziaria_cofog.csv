@@ -1,0 +1,9 @@
+DATASET,COFOG,SECTOR,UNIT,GEO,ANNO,PCT_PIL
+gov_10a_exp,GF0904 (istruzione terziaria),S13,PC_GDP,IT,2021,0.4
+gov_10a_exp,GF0904 (istruzione terziaria),S13,PC_GDP,IT,2022,0.4
+gov_10a_exp,GF0904 (istruzione terziaria),S13,PC_GDP,IT,2023,0.4
+gov_10a_exp,GF0904 (istruzione terziaria),S13,PC_GDP,IT,2024,0.4
+gov_10a_exp,GF0904 (istruzione terziaria),S13,PC_GDP,EU27_2020,2021,0.7
+gov_10a_exp,GF0904 (istruzione terziaria),S13,PC_GDP,EU27_2020,2022,0.7
+gov_10a_exp,GF0904 (istruzione terziaria),S13,PC_GDP,EU27_2020,2023,0.8
+gov_10a_exp,GF0904 (istruzione terziaria),S13,PC_GDP,EU27_2020,2024,0.8
