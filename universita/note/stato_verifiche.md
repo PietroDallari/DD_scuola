@@ -23,7 +23,7 @@ Convenzione file: dati verificati in `analisi/<data>_.../data/*.csv` con fonte/a
 | B12 | RTT passaggio PA: 3° o 4° anno | **[V]** | art.24 c.5 L.240/2010: **TERZO anno** (post L.79/2022: dal 3° e successivi); c.5-bis anticipo dopo il 1° con prova didattica. Report "quarto"→**terzo** | `.../b8_b12_giuridiche_nota.md` |
 | F4 | Bandi competitivi IT vs DFG/ANR/SNSF/NWO/UKRI | **[V]** | budget agenzie verificati; gap "4-6x" difendibile ma conservativo (a regime, per ab., vs DE); fino a ~10x vs CH/NL | report agenzie (DFG/ANR/SNSF/NWO/UKRI) → `analisi/2026-07-18_verifiche_fonti/data/f4_bandi_competitivi_confronto.csv` + `f4_..._nota.md` |
 | F2 | FFO reale 2019-25 | **[V]** | figura resa | `.../figures/f2_ffo_reale.png` (+ `.py`) |
-| F3,F5,F6 | Figure premiale / successo FIS / precariato | **[V]** (F5 parz.) | F3 scatter premiale/FFO [V]; F5 FIS 2,46/4,63% vs **ERC CoG 14,2%** [ancorato] (FIS3 in corso); F6 RTD 4,1%→11,2% (ANVUR) | `figures/f3_*,f5_*,f6_*.png` |
+| F3,F5,F6 | Figure premiale / successo FIS / precariato | **[V]** | F3 scatter premiale/FFO; F5 FIS 2,46/4,63/**6,52%** vs ERC 14,2% (3 barre FIS + ERC); F6 RTD 4,1%→11,2% | `figures/f3_*,f5_*,f6_*.png` |
 | §2.1 | Simulazione premiale 50% (beneficiari Sud) | **⚠ CONTRADDIZIONE** (3 stress test) | a criteri invariati: Nord **+0,42%** / Sud **−0,74%** / Isole −0,16% dell'FFO → il "Sud beneficiario netto" è **falso** sul 2025; ma Federico II +8M, Cagliari/Messina vincono. Riformulare §2.1 (traiettoria+perequativo+campioni) | DM 595/2025 TAB1 → `.../sim_premiale50_nota.md` |
 | D | Tabella costi §8 | **[V parz.]** | assemblata: baseline bandi 0,41 (B2), gratuità **1,2-1,3** (B11, era 1,5-2), spesa terziaria gap ~8,8 mld (B6); totale ~12-14. NO coperture (R-Z1) | `.../data/tabella_costi.csv` |
 

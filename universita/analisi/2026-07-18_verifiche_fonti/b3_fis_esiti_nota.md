@@ -17,14 +17,14 @@ Lo **Starting Grant** (ricercatori emergenti) è **la quota maggiore** del ripar
 |---|---|---|---|
 | FIS1 | 1.912 | 47 | **2,46%** |
 | FIS2 | 2.289 | 106 | **4,63%** (iniziale; poi scorrimenti) |
-| FIS3 | [C] da graduatorie | ~330 (stima da budget/taglia) [C] | [C] (atteso ↑ per budget 475M) |
+| FIS3 | oltre 5.000 | **326** | **6,52%** |
 
-Tassi bassissimi vs benchmark ERC (~14-15%): coerente col claim del report "lotterie" a fronte di scala insufficiente. FIS3, col budget quasi decuplicato rispetto a FIS1, dovrebbe alzare il tasso — da confermare sulle graduatorie.
+Trend crescente col budget: **2,46% → 4,63% → 6,52%**, ma ancora **ben sotto l'ERC (14,2%)**: coerente col claim "lotterie a fronte di scala insufficiente". FIS3: 326 progetti su oltre 5.000 candidature, >432M (graduatorie nov.2025 DD 18008/18010/18169; scorrimenti successivi; **revoche 2026 a parte, non nette** nel tasso).
 
 **Revoche 2026:** come da istruzione, i "finanziati" sono quelli di **graduatoria originale**; le revoche 2026 (presenti per FIS3) vanno contate **a parte**, non nette — così il tasso di successo resta quello del bando. Conteggio revoche: **pendente** (richiede i decreti di revoca).
 
-## Pendenze per completare F5
-FIS3 domande + finanziati per macrosettore (DD 18008 LS / 18010 PE / 18169 SH del nov.2025) e conteggio revoche 2026 → parsing PDF graduatorie. Con quelli, F5 = tassi di successo FIS per edizione/schema vs ERC/NWO.
+## F5 completata
+`figures/f5_successo_fis_erc.png` con la terza barra FIS3 (6,52%). Restano fuori (minori): breakdown domande/finanziati **per schema** dentro ciascuna edizione e conteggio esatto delle **revoche 2026** (i decreti di graduatoria sono testo, la lista progetti è in allegati separati non pubblicati come PDF-tabella).
 
 ## Riga per la lista v2 (corretta)
 §3.2 (FIS): azione **additiva, nessuna rimozione** — il report v1 non contiene l'insinuazione "riparto anti-giovani" (stava nel PP Bandi archiviato; il §3.2 critica già solo la discontinuità). **Aggiungere i tassi verificati:** *"tassi di successo del 2,46% (FIS1) e 4,63% (FIS2), contro circa il 15% dell'ERC [fonte da ancorare]"* — rende quantitativo l'argomento "lotteria". Il riparto per schema (Starting ~50%) resta come dato interno a supporto, non come tesi.

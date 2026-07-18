@@ -36,18 +36,18 @@ fig.text(0.01, 0.01, "Fonte: DM 595/2025, TABELLA 1 (nostra elaborazione, 68 ate
 fig.tight_layout(rect=(0, 0.03, 1, 1)); fig.savefig(os.path.join(HERE, "f3_premiale_ffo.png"), dpi=140); plt.close(fig)
 
 # ---------- F5 — tassi di successo FIS vs ERC ----------
-labels = ["FIS1\n(2021)", "FIS2\n(2023)", "ERC CoG\n(2024)"]
-vals = [2.46, 4.63, 14.2]
-colors = ["#d62728", "#d62728", "#1f77b4"]
-fig, ax = plt.subplots(figsize=(7, 5))
+labels = ["FIS1\n(2021)", "FIS2\n(2023)", "FIS3\n(2024)", "ERC CoG\n(2024)"]
+vals = [2.46, 4.63, 6.52, 14.2]
+colors = ["#d62728", "#d62728", "#d62728", "#1f77b4"]
+fig, ax = plt.subplots(figsize=(7.5, 5))
 bars = ax.bar(labels, vals, color=colors, alpha=0.85)
 for b, v in zip(bars, vals):
     ax.text(b.get_x() + b.get_width() / 2, v + 0.2, f"{v}%", ha="center", fontsize=9)
 ax.set_ylabel("Tasso di successo (%)")
 ax.set_title("Tassi di successo: bandi FIS (Italia) vs ERC Consolidator")
 ax.set_ylim(0, 16); ax.grid(alpha=0.25, axis="y")
-fig.text(0.01, 0.01, "Fonte: MUR (FIS1 47/1.912; FIS2 106/2.289, graduatoria iniziale); ERC 2024 Consolidator Grant Statistics (328/2.313 = 14,2%). "
-         "FIS3 in corso.", fontsize=6, color="gray")
+fig.text(0.01, 0.01, "Fonte: MUR (FIS1 47/1.912; FIS2 106/2.289; FIS3 326/oltre 5.000, graduatorie iniziali, revoche a parte); "
+         "ERC 2024 Consolidator Grant Statistics (328/2.313 = 14,2%).", fontsize=6, color="gray")
 fig.tight_layout(rect=(0, 0.03, 1, 1)); fig.savefig(os.path.join(HERE, "f5_successo_fis_erc.png"), dpi=140); plt.close(fig)
 
 # ---------- F6 — precarizzazione (quota TD del personale di ruolo) ----------
