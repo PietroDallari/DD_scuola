@@ -1,0 +1,14 @@
+VOCE,ANNO,EURO,TIPO,NOTA_FONTE
+FPR dotazione base,2026,259029354,dentro,art.1 c.529-533 L.199/2025; base = ex FIRST/FISR/FIS/FISA/FRES
+Incremento strutturale PRIN (c.533),2026,150000000,dentro,+150M/anno dal 2026 destinati ai PRIN
+FPR TOTALE,2026,409029354,=,= 259 base + 150 incremento PRIN
+  di cui PRIN ordinari,2026,270000000,linea,dentro i 409
+  di cui PRIN Hybrid,2026,59000000,linea,dentro i 409
+  di cui Synergy Grant,2026,50000000,linea,dentro i 409
+  di cui partenariati UE/internaz.,2026,30029354,linea,dentro i 409 (residuo)
+  di cui FIS,2026,0,linea,"nessun bando 2026 (ultimo nov.2024); Starting 100M nel 2027, Cons./Adv. 130M nel 2028"
+FPR TOTALE,2027,407633003,=,
+FPR TOTALE,2028,435703366,=,
+FPR TOTALE,2029,665901239,=,regime
+FPR TOTALE,2030,665901239,=,regime
+FPR TOTALE,2031,687830876,=,regime

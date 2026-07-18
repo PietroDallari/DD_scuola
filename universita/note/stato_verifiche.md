@@ -11,16 +11,16 @@ Convenzione file: dati verificati in `analisi/<data>_.../data/*.csv` con fonte/a
 | B6 | Spesa pubblica terziaria % PIL | **[V]** | IT **0,4%** vs EU27 **0,8%** (2023-24); il "0,3" era altro perimetro | Eurostat `gov_10a_exp` COFOG GF0904, S13/TE, PC_GDP → `analisi/2026-07-18_verifiche_fonti/data/b6_spesa_terziaria_cofog.csv` |
 | F1 | Attainment terziario 25-34 | **[V]** | IT 30,6% / EU 43,1% (2023, = report); ultimo 2025: IT 31,1% / EU 44,8% | Eurostat `edat_lfse_03` ED5-8 → `.../data/f1_attainment_25_34.csv` |
 | B1 | Legge Bernini reclutamento (AC 2735) | [C] | testo definitivo in attesa di GU; mappa modifiche L.240/2010 da fare | Gazzetta Ufficiale (da scaricare) |
-| B2 | PTR 2026-28 / FPR (perimetro 259 vs 409M) | [C] | — | DM 150/2026 (PDF mur.gov.it) |
+| B2 | PTR/FPR perimetro 259 vs 409M | **[V]** | 259 = FPR base; 409 = base + 150M incremento PRIN (c.533 L.199/2025); linee dentro il 409. Baseline F4 IT 2026 = 0,41 mld; regime 0,67 (665,9M) | DM 150/2026 → `.../data/b2_fpr_perimetro.csv`, `sources/2026_MUR_DM150_PTR.pdf` |
 | B3 | Serie FIS (FIS2 importo; esiti FIS3) | [C] | FIS1 50M, FIS3 475M [V da report]; FIS2 330M da confermare | DD istitutivi; graduatorie fis-submission.mur.gov.it |
 | B4 | FFO composizione + % premiale | **[V] (parz.)** | premiale = 2,5 mld = **30,2%** del distribuito (26,6% del 9,4 mld tot.); il "23% effettivo" del report NON è supportato. Serie reale 2019-24 da completare | DM 595/2025 TAB1 → `.../data/b4b5_ffo2025_per_ateneo.csv`, `sources/DM595_TAB1...pdf` |
-| B5 | Gini premiale vs base | **⚠ CONTRADDIZIONE** (3 stress test) | Gini premiale **0,471** > base **0,450**: il claim "a pioggia / premiale<base" (report §1.1) è FALSO sul 2025. Sostanza salvabile: corr(premiale,FFO)=0,997, banda 19-34%. Riformulare in v2 | DM 595/2025 TAB1 → `.../b4b5_ffo_gini_nota.md` |
+| B5 | Gini premiale vs base | **⚠ CONTRADDIZIONE** (3 stress test) | Gini premiale **0,471** > base **0,450**: il claim "a pioggia / premiale<base" (report §1.1) è FALSO sul 2025. Argomento v2 (arbitrato): **corr(premiale, quota base) = 0,9929** (ricontrollato su TUTTI i 68 atenei, base esclude la premiale; invariato vs 0,993) + banda 19-34% dell'FFO, CV 0,10 | DM 595/2025 TAB1 → `.../b4b5_ffo_gini_nota.md` |
 | B7 | N. atenei statali (57/66/67) | [C] | — | USTAT/MUR anagrafe |
-| B8 | Cons. Stato 3043/2016 e 8516/2024 | [C] | estremi da verificare + testi | giustizia-amministrativa.it |
-| B9 | Piano straordinario ricercatori LdB 2026 | [C] | ~50M/2 anni, comma esatti | Legge di Bilancio 2026 |
+| B8 | Cons. Stato 3043/2016 e 8516/2024 | **[V] parz.** | 8516/2024 (sez VII, 25/10/2024) confermata: illegittimo regolamento che subordina la Commissione al Consiglio di Dip. — ma NON "terne", riformulare §4.1. **3043/2016 ancora da confermare** | `.../b8_b12_giuridiche_nota.md` |
+| B9 | Piano straordinario ricercatori LdB 2026 | **[V]** | L.199/2025 art.1 **commi 305-315** (c.307: 11,3M dal 2026 + 38,7M dal 2027 = 50M); cofin 50%, PA 0,2 po; ~1.600 posti; DM 193/2026. Flag: "0,45 po" del report non riscontrato | `.../b9_piano_straordinario_nota.md` |
 | B10 | Semestre filtro medicina (numeri 1° ciclo) | [C] | ~54.300 / 22.700 / 17.278 posti da fonte MUR | L.26/2025, D.Lgs.71/2025, DM 941/2026, Universitaly |
 | B11 | Contribuzione (gettito 1,5 mld; esonerati 37,8%) | [C] | + tetto 20% FFO (DPR 306/97) e no tax area | USTAT focus contribuzione |
-| B12 | RTT anticipo passaggio PA (3° o 4° anno) | [C] | testo vigente art.24 L.240/2010 + modifica Bernini | Normattiva |
+| B12 | RTT passaggio PA: 3° o 4° anno | **[V]** | art.24 c.5 L.240/2010: **TERZO anno** (post L.79/2022: dal 3° e successivi); c.5-bis anticipo dopo il 1° con prova didattica. Report "quarto"→**terzo** | `.../b8_b12_giuridiche_nota.md` |
 | F4 | Bandi competitivi IT vs DFG/ANR/SNSF/NWO/UKRI | **[V]** | budget agenzie verificati; gap "4-6x" difendibile ma conservativo (a regime, per ab., vs DE); fino a ~10x vs CH/NL | report agenzie (DFG/ANR/SNSF/NWO/UKRI) → `analisi/2026-07-18_verifiche_fonti/data/f4_bandi_competitivi_confronto.csv` + `f4_..._nota.md` |
 | F2,F3,F5,F6 | Figure (FFO reale, Gini, successo FIS, precariato) | [C] | dipendono da B3/B4/B5 + ANVUR/USTAT | — |
 | D | Tabella costi §8 | [C] | dopo B4/B6/B11; NO coperture (→ fiscal framework) | — |
