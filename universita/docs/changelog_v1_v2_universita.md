@@ -40,5 +40,7 @@ Rimosse le frasi autoreferenziali/autocelebrative: "Non critichiamo un mondo che
 
 **§1.2/§3.2 — FIS3 [C]→[V], additivo.** Inserito il tasso di successo FIS3 = 6,52% (326/oltre 5.000, graduatorie MUR dic. 2025, revoche 2026 a parte); trend 2,46→4,63→6,52% vs ERC 14,2%. Nota di riconciliazione storica: il "432M" del vecchio PP Tesi era l'importo *assegnato* in graduatoria, non il budget del bando (475M) — le due cifre convivono, perimetri diversi.
 
+**§8 — Gratuità: [V parz.]→[V].** Iscritti statali 2022/23 = 1.632.163 (USTAT ANS, per ateneo); gettito verificato ~1,49 mld; costo con flat 200€ = **~1,24 mld** (era "~1,2–1,3"). Scenari: 1,49 / 1,24 / 0,86 mld per flat 0/200/500€.
+
 ## E. [C] residui dopo la v2.1
 Estremi GU legge Bernini (numero, data, entrata in vigore → aggiornare §1.3, §4.1, §9) · esiti FIS3 per macrosettore + revoche 2026 (completa F5) · gettito contribuzione statali all'euro e split in-corso statali (§8, precisione) · composizione riga convergenza §8.

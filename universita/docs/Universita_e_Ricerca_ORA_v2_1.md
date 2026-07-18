@@ -219,7 +219,7 @@ Questo capitolo si salda al programma ORA sulla previdenza complementare e il ve
 |---|---|---|
 | Convergenza spesa terziaria pubblica verso media UE (FFO, post-doc strutturale, personale, edilizia ordinaria; gap 0,4→0,8% PIL ≈ 8,8 mld) | ~8–9 mld | [V] baseline; composizione [C] |
 | Bandi competitivi a 1,7 mld (delta su 0,41 attuali / 0,67 a regime) | ~1,0–1,3 mld | [V] |
-| Gratuità (contributo flat 200€; intervallo 0,9–1,5 secondo il livello del contributo) | ~1,2–1,3 mld | [V parz.] |
+| Gratuità (contributo flat 200€ sugli iscritti in corso; gettito attuale verificato 1,49 mld; intervallo 0,9–1,5 secondo il livello del contributo) | ~1,24 mld | [V] |
 | Diritto allo studio a LEP pieni (borse, anticipo, fondo integrativo) | ~0,7–1 mld | [C] |
 | Alloggi e campus (componente corrente; capex separato via PPP e fondi dedicati) | ~0,3–0,5 mld | [C] |
 | Attrattività internazionale, tecnologi, transizione digitale amministrativa | ~0,3–0,5 mld | [C] |
