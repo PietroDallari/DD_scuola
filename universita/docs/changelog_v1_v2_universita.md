@@ -42,5 +42,7 @@ Rimosse le frasi autoreferenziali/autocelebrative: "Non critichiamo un mondo che
 
 **§8 — Gratuità: [V parz.]→[V].** Iscritti statali 2022/23 = 1.632.163 (USTAT ANS, per ateneo); gettito verificato ~1,49 mld; costo con flat 200€ = **~1,24 mld** (era "~1,2–1,3"). Scenari: 1,49 / 1,24 / 0,86 mld per flat 0/200/500€.
 
+**§1.3 — Precariato riconciliato con F6 (perimetro pieno).** Da "4,1%→11,2% (RTD-a su ruolo)" a **4,1% (2012)→21,1% (2022), RTD a+b sul totale del personale docente, perimetro identico nei due anni** [V, ANVUR: 2.356/57.285 → 12.728/60.333] — "più che quintuplicata"; la misura prudente (soli RTD-a, 10,1%) dichiarata in inciso. Il vecchio "quasi triplicata" sottostimava escludendo gli RTD-b; base ancorata al 2012 (il 2008 non ha serie pulita).
+
 ## E. [C] residui dopo la v2.1
 Estremi GU legge Bernini (numero, data, entrata in vigore → aggiornare §1.3, §4.1, §9) · esiti FIS3 per macrosettore + revoche 2026 (completa F5) · gettito contribuzione statali all'euro e split in-corso statali (§8, precisione) · composizione riga convergenza §8.
