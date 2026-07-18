@@ -26,5 +26,6 @@ Tassi bassissimi vs benchmark ERC (~14-15%): coerente col claim del report "lott
 ## Pendenze per completare F5
 FIS3 domande + finanziati per macrosettore (DD 18008 LS / 18010 PE / 18169 SH del nov.2025) e conteggio revoche 2026 → parsing PDF graduatorie. Con quelli, F5 = tassi di successo FIS per edizione/schema vs ERC/NWO.
 
-## Riga per la lista v2
-§3 (bandi/FIS): **rimuovere** l'insinuazione che il riparto FIS penalizzi i giovani (falsa: Starting ~50%); **tenere** la critica sulla **discontinuità** (Starting successivo 2027) e sulla **scala/tassi** (successo 2,5-4,6% vs ~15% ERC).
+## Riga per la lista v2 (corretta)
+§3.2 (FIS): azione **additiva, nessuna rimozione** — il report v1 non contiene l'insinuazione "riparto anti-giovani" (stava nel PP Bandi archiviato; il §3.2 critica già solo la discontinuità). **Aggiungere i tassi verificati:** *"tassi di successo del 2,46% (FIS1) e 4,63% (FIS2), contro circa il 15% dell'ERC [fonte da ancorare]"* — rende quantitativo l'argomento "lotteria". Il riparto per schema (Starting ~50%) resta come dato interno a supporto, non come tesi.
+**Nota per F5:** il benchmark ERC (~15%) va ancorato a fonte (ERC annual report / Statistics, anno dichiarato): è il termine di paragone dell'intera figura, non può restare senza fonte.

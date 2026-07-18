@@ -1,0 +1,16 @@
+VOCE,VALORE,FONTE
+esonerati_totali_pct_2022_23,"38,0%","USTAT Focus contribuzione 2022/23 (2021/22:37,5; 2020/21:36,2)"
+riduzione_parziale_pct_2022_23,"9,7%",USTAT Focus
+no_tax_area_pct_iscritti,"16,8%",USTAT Focus (L.232/2016)
+contribuzione_procapite_tutti_iscritti_eur,~914,"USTAT Focus (statali, in calo)"
+gettito_contribuzione_statali_eur,~1.500.000.000,report + coerente con procapite×iscritti [V parz.]
+iscritti_totali_2022_23,1.910.390,USTAT ANS (tutti atenei)
+iscritti_fuori_corso_2022_23,427.835,"USTAT (22,4%)"
+iscritti_in_corso_2022_23,1.482.555,"USTAT (77,6%, tutti atenei)"
+iscritti_in_corso_statali_stima,~1.200.000,"77,6% su ~1,55M statali [C: split ateneo-tipo da firmare]"
+tetto_contribuzione,20% FFO,DPR 306/1997 art.5 [V]
+
+SCENARIO_FLAT_EUR,NUOVO_RICAVO_EUR,COSTO_LORDO_GRATUITA_EUR
+0,0,1500000000
+200,240000000,1260000000
+500,600000000,900000000
