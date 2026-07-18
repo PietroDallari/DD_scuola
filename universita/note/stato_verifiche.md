@@ -13,8 +13,8 @@ Convenzione file: dati verificati in `analisi/<data>_.../data/*.csv` con fonte/a
 | B1 | Legge Bernini reclutamento (AC 2735) | [C] | testo definitivo in attesa di GU; mappa modifiche L.240/2010 da fare | Gazzetta Ufficiale (da scaricare) |
 | B2 | PTR 2026-28 / FPR (perimetro 259 vs 409M) | [C] | — | DM 150/2026 (PDF mur.gov.it) |
 | B3 | Serie FIS (FIS2 importo; esiti FIS3) | [C] | FIS1 50M, FIS3 475M [V da report]; FIS2 330M da confermare | DD istitutivi; graduatorie fis-submission.mur.gov.it |
-| B4 | FFO serie storica reale + % premiale | [C] | FFO 2025 = 9,4 mld [V]; serie 2019-25 e premiale da tabelle | DM 595/2025 + allegati (PDF) |
-| B5 | Gini quota premiale vs base | [C] | ricalcolo diretto da tabelle DM 595/2025 | dipende da B4 |
+| B4 | FFO composizione + % premiale | **[V] (parz.)** | premiale = 2,5 mld = **30,2%** del distribuito (26,6% del 9,4 mld tot.); il "23% effettivo" del report NON è supportato. Serie reale 2019-24 da completare | DM 595/2025 TAB1 → `.../data/b4b5_ffo2025_per_ateneo.csv`, `sources/DM595_TAB1...pdf` |
+| B5 | Gini premiale vs base | **⚠ CONTRADDIZIONE** (3 stress test) | Gini premiale **0,471** > base **0,450**: il claim "a pioggia / premiale<base" (report §1.1) è FALSO sul 2025. Sostanza salvabile: corr(premiale,FFO)=0,997, banda 19-34%. Riformulare in v2 | DM 595/2025 TAB1 → `.../b4b5_ffo_gini_nota.md` |
 | B7 | N. atenei statali (57/66/67) | [C] | — | USTAT/MUR anagrafe |
 | B8 | Cons. Stato 3043/2016 e 8516/2024 | [C] | estremi da verificare + testi | giustizia-amministrativa.it |
 | B9 | Piano straordinario ricercatori LdB 2026 | [C] | ~50M/2 anni, comma esatti | Legge di Bilancio 2026 |

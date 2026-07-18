@@ -1,0 +1,11 @@
+COMPONENTE,GINI_SORT,GINI_MAD,NOTA
+quota_base_costo_std_36pct,0.413,0.413,solo costo standard
+quota_base_totale,0.450,0.450,base+storica+consolidamenti
+quota_base_piu_integrazione,0.450,0.450,base + integr. art.238
+quota_premiale,0.471,0.471,VQR+reclutamento+qualita
+ffo_totale_2025,0.456,0.456,
+
+TEST_A_PIOGGIA,VALORE,,NOTA
+corr_premiale_FFO,0.997,,premiale segue quasi perfettamente la dimensione
+corr_premiale_base,0.993,,
+quota_premiale_su_FFO_media,0.294,,"range 0.186-0.342, CV 0.10"
